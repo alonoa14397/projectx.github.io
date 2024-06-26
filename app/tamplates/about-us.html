@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="../Images/small-logo.png" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>About Us</title>
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/preloader.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="../js/preloader.js"></script>
+  </head>
+  <style>
+    body {
+      overflow-x: hidden;
+      font-family: "Montserrat";
+    }
+
+    .mapouter {
+      position: relative;
+      text-align: right;
+      border-radius: 14px;
+    }
+    .gmap_canvas {
+      overflow: hidden;
+      background: none !important;
+      width: 100%;
+      border-radius: 14px;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+    }
+    .row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin: 0 10%;
+    }
+    .col {
+      width: 45%;
+      margin: 0 10px 0 10px;
+    }
+    h1 {
+      text-align: center;
+    }
+    #about-us,
+    h1 {
+      font-family: "Montserrat";
+    }
+    nav {
+      position: relative;
+      background: transparent;
+    }
+    p {
+      text-align: justify;
+    }
+    figure > img {
+      width: 500px;
+      height: 500px;
+      object-fit: cover;
+      box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+      border-radius: 7px;
+    }
+  </style>
+  <body>
+    <div class="se-pre-con"></div>
+    <nav>
+      <ul>
+        <li class="primary-nav">
+          <img src="../Images/small-logo.png" alt="logo" />
+          <a href="../index.html">BandPro</a>
+        </li>
+        <li class="secondary-nav"><a href="../HTML/login.html">LOG IN</a></li>
+        <li class="secondary-nav"><a href="../HTML/shop.html">SHOP</a></li>
+        <li class="secondary-nav">
+        </li>
+      </ul>
+    </nav>
+    <h1>About BandPro</h1>
+    <div class="row">
+      <section class="mapouter col">
+        <div class="gmap_canvas">
+          <iframe
+            width="100%"
+            height="500vw"
+            id="gmap_canvas"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13524.842154072961!2d34.79097210798912!3d32.06355383024258!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d4b9f5c50997b%3A0x24bb5767a63750f2!2z15HXoNeTLdek16jXlSDXpNeZ15zXnSDXldeZ15PXkNeVINeQ15nXoNen!5e0!3m2!1sen!2sil!4v1718648077115!5m2!1sen!2sil" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+          ></iframe>
+        </div>
+      </section>
+
+      <section id="about-us" class="col">       
+        <p>Band Pro Film Video Inc. was established in the USA in 1984, adjacent to Hollywood, California, to cater to the film and television market.</p>
+
+        <p>Today, Band Pro primarily sells equipment for the television and professional video production industries worldwide. Band Pro has several branches, including the Israeli branch located in Tel Aviv (60 Anilevich Street) near the Cinematheque parking lot.</p>		
+                  
+        <p>Since the establishment of the Israeli branch in 1995, our focus has been on providing comprehensive solutions to supply the appropriate equipment while offering optimal conditions for project production.</p>
+
+        <p>Our professional team strives to bring a diverse, up-to-date, and high-quality range of equipment tailored to the needs of the evolving market. We offer a wide and updated selection of products from leading companies.</p> 
+<!--
+        <h2>Mission</h2>
+
+        <ul class="connect">
+          <li>
+            <h2 class="phone">Call Us</h2>
+            <span>Tel: 03-5621631</span><span>Fax: 03-5621632</span><span>9:30am - 5:30pm CST Sunday - Thursday</span>
+          </li>
+          <li>
+            <h2 class="email">Email Us</h2>
+            <span><a href="mailto:info@bandpro.co.il">info@bandpro.co.il</a></span>
+          </li>
+          <li>
+            <span>Anielewicz Mordechai Street 60, Tel Aviv-Yafo 6706015, Israel</span>
+          </li>
+          <li>
+            <h2 class="email">Haim Adar, Sales Manager</h2>
+            <span><a href="mailto:Haim@bandpro.co.il">Haim@bandpro.co.il</a> 
+          </li>
+          <li>
+            <h2 class="email">Yoni Sander, Sales Manager</h2>
+            <span><a href="mailto:yoni@bandpro.co.il">yoni@bandpro.co.il</a></span>
+          </li>
+          <li>
+            <h2 class="email">Ofer Menashe, CEO</h2>
+            <span><a href="mailto:ofer@bandpro.co.il">ofer@bandpro.co.il</a></span>
+          </li>
+          <li>
+            <h2 class="email">Leah Livni, Office Manager</h2>
+            <span><a href="mailto:leah@bandpro.co.il">leah@bandpro.co.il</a></span>
+          </li>
+        -->
+
+      </section>
+    </div>
+  </body>
+</html>
